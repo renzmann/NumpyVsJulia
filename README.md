@@ -14,6 +14,6 @@ I'm testing these on a Windows 10 machine with an Intel i7-7820X
 @ 3.60GHz. Results:
 
 1. Python (3.7) : 70.9 s
-2. Python (3.7) + NumPy (1.18.1) : 2.2 s
+2. Python (3.7) + NumPy (1.18.1) : 2.23 s
 3. Julia (1.4) : 0.49 s
 
