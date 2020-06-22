@@ -6,8 +6,8 @@ VEC_SIZE = 1000
 NUM_RUNS = 10**6
 
 
-u = [random.randint(1, 1000) for i in range(VEC_SIZE)]
-v = [random.randint(1, 1000) for i in range(VEC_SIZE)]
+u = [random.random() for i in range(VEC_SIZE)]
+v = [random.random() for i in range(VEC_SIZE)]
 
 
 start = time.time()
