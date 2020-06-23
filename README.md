@@ -18,3 +18,13 @@ I'm testing these on a Windows 10 machine with an Intel i7-7820X
 2. Python (3.7) + NumPy (1.18.1) : 3.19 s
 3. Julia (1.4) : 1.04 s
 
+
+Loopsum implementation benchmarks
+---------------------------------
+
+The above was looking at one particular
+
+1. Python (3.7) 146 ms ± 17.9 ms
+1. Julia (1.4) 8.98 ms ± 5 ms
+1. C (compiled with gcc in MinGW 64 bit) 17.43 ms ± 6.12 ms
+
