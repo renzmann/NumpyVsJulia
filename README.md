@@ -1,8 +1,16 @@
 Simple Benchmarking of Python/NumPy Against Julia
 =================================================
 
-All tests performed on a Windows 10 surface pro with an Intel i7-8650U
-@ 1.90GHz and 16GB RAM.
+The test results below were run on a moderately powered Windows 10 surface
+pro with an Intel i7-8650U @ 1.90GHz and 16GB RAM. Other machines I've
+tried had results come out similarly proportioned to one another, although
+the actual runtimes would vary. To replicate these tests yourself, you
+will need:
+
+1. Python 3.7, with `numpy` version 1.18 (`pip install numpy==1.18`)
+1. Julia 1.4
+1. A way to compile C
+
 
 Repeated dot products
 ---------------------
