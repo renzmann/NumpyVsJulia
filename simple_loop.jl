@@ -1,8 +1,5 @@
-using LinearAlgebra
 using Random
-using CSV
-using DataFrames
-using Printf
+using LinearAlgebra
 
 
 function dot_them(u, v, num_runs)
